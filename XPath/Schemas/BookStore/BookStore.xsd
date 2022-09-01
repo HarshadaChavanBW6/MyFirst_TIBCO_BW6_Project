@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.eniquesolutions.com/day10/exercises/BookStore" xmlns:tns="http://www.eniquesolutions.com/day10/exercises/BookStore" elementFormDefault="qualified">
+	<complexType name="BookType">
+		<sequence>
+			<element name="Title">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute type="string" name="lang"
+								use="optional" />
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+			<element type="string" name="BookID" minOccurs="0"/>
+			<element type="string" name="Year" minOccurs="0"/>
+			<element name="PublishedDate" type="string" minOccurs="0"></element>
+			<element name="InitialRelease" type="string" minOccurs="0"></element>
+		</sequence>
+		<attribute type="string" name="Category" use="optional"/>
+		<attribute type="string" name="Cover" use="optional"/>
+	</complexType>
+	<complexType name="BookStoreType">
+		<sequence>
+			<element type="tns:BookType" name="Book" maxOccurs="unbounded" minOccurs="0"/>
+		</sequence>
+	</complexType>
+
+	<element name="BookStore" type="tns:BookStoreType"></element>
+
+	<element name="Book" type="tns:BookType"></element>
+</schema>

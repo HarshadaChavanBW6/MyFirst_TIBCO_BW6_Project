@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.eniquesolutions.com/day10/exercises/Authors" xmlns:tns="http://www.eniquesolutions.com/day10/exercises/Authors" elementFormDefault="qualified">
+
+	<complexType name="AuthorsListType">
+		<sequence>
+			<element name="Author" maxOccurs="unbounded" minOccurs="0">
+				<complexType>
+					<simpleContent>
+						<extension base="string">
+							<attribute type="string" name="AuthorID"
+								use="optional" />
+						</extension>
+					</simpleContent>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+	<element name="AuthorsList" type="tns:AuthorsListType"/>
+
+	<complexType name="AuthorIDsType">
+		<sequence>
+			<element type="string" name="BookID" minOccurs="0"/>
+			<element type="string" name="AuthorID" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<element name="AuthorIDsList" type="tns:AuthorIDsListType"/>
+
+	<complexType name="AuthorIDsListType">
+		<sequence>
+			<element name="AuthorIDs" type="tns:AuthorIDsType" maxOccurs="unbounded" minOccurs="0"/>
+		</sequence>
+	</complexType>
+</schema>

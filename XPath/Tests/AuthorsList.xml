@@ -1,0 +1,10 @@
+<tns2:AuthorsList xmlns:tns2="http://www.eniquesolutions.com/day10/exercises/Authors">
+	<tns2:Author AuthorID="AUTHOR001">Giada De Laurentiis</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR002">J K. Rowling</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR003">James McGovern</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR003">Per Bothner</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR003">Kurt Cagle</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR003">James Linn</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR003">Vaidyanathan Nagarajan</tns2:Author>
+	<tns2:Author AuthorID="AUTHOR004">Erik T. Ray</tns2:Author>
+</tns2:AuthorsList>

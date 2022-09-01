@@ -1,0 +1,33 @@
+<tns4:Input xmlns:tns4="http://www.eniquesolutions.com/day10/exercises/XPathFunctions" xmlns:tib="http://www.tibco.com/bw/xslt/custom-functions">
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>91-02-13</tns4:value>
+	<tns4:value>19-Jun-29</tns4:value>
+	<tns4:value>2020-03-28T21:46:45</tns4:value>
+	<tns4:value>2020-03-28T9:46:45</tns4:value>
+	<tns4:value>20200328</tns4:value>
+	<tns4:value>20200328214645</tns4:value>
+	<tns4:value>20200328T094645</tns4:value>
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>2020-03-02</tns4:value>
+	<tns4:value>2020-03-02T21:46:45</tns4:value>
+	<tns4:value>2020-03-02T21:46:45</tns4:value>
+	<tns4:value>20200328</tns4:value>
+	<tns4:value>20200328T094645</tns4:value>
+	<tns4:value>This</tns4:value>
+	<tns4:value>is</tns4:value>
+	<tns4:value>XPath</tns4:value>
+	<tns4:value>Exercise</tns4:value>
+	<tns4:value>This is XPath Exercise</tns4:value>
+	<tns4:value>This is XPath Exercise</tns4:value>
+	<tns4:value>This is XPath Exercise</tns4:value>
+	<tns4:value>This is XPath Exercise</tns4:value>
+	<tns4:value>1</tns4:value>
+	<tns4:value>2</tns4:value>
+	<tns4:value>3</tns4:value>
+	<tns4:value>4</tns4:value>
+	<tns4:value>5</tns4:value>
+	<tns4:value>Burger, Pizza, Biryani, Appetizer, Softdrinks</tns4:value>
+</tns4:Input>

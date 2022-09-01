@@ -1,0 +1,30 @@
+<tns2:BookStore xmlns:tns2="http://www.eniquesolutions.com/day10/exercises/BookStore">
+	<tns2:Book Category="cooking">
+		<tns2:Title lang="en">Everyday Italian</tns2:Title>
+		<tns2:BookID>BOOK001</tns2:BookID>
+		<tns2:Year>2005</tns2:Year>
+		<tns2:PublishedDate>2020-03-28-04:00</tns2:PublishedDate>
+		<tns2:InitialRelease>2020-03-28T09:46:45.001-04:00</tns2:InitialRelease>
+	</tns2:Book>
+	<tns2:Book Category="children">
+		<tns2:Title lang="en">Harry Potter</tns2:Title>
+		<tns2:BookID>BOOK002</tns2:BookID>
+		<tns2:Year>2005</tns2:Year>
+		<tns2:PublishedDate>2020-03-28-04:00</tns2:PublishedDate>
+		<tns2:InitialRelease>2020-03-28T09:46:45.001-04:00</tns2:InitialRelease>
+	</tns2:Book>
+	<tns2:Book Category="web">
+		<tns2:Title lang="en">XQuery Kick Start</tns2:Title>
+		<tns2:BookID>BOOK003</tns2:BookID>
+		<tns2:Year>2003</tns2:Year>
+		<tns2:PublishedDate>2020-03-28-04:00</tns2:PublishedDate>
+		<tns2:InitialRelease>2020-03-28T09:46:45.001-04:00</tns2:InitialRelease>
+	</tns2:Book>
+	<tns2:Book Category="web" Cover="paperback">
+		<tns2:Title lang="en">Learning XML</tns2:Title>
+		<tns2:BookID>BOOK004</tns2:BookID>
+		<tns2:Year>2003</tns2:Year>
+		<tns2:PublishedDate>2020-03-28-04:00</tns2:PublishedDate>
+		<tns2:InitialRelease>2020-03-28T09:46:45.001-04:00</tns2:InitialRelease>
+	</tns2:Book>
+</tns2:BookStore>
