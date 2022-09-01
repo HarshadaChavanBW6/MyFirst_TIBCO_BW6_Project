@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.eniquesolutions.com/day10/exercises/Prices" xmlns:tns="http://www.eniquesolutions.com/day10/exercises/Prices" elementFormDefault="qualified">
+	
+	<complexType name="PricesType">
+		<sequence>
+			<element type="string" name="BookID" minOccurs="0"/>
+			<element type="string" name="Price" minOccurs="0"/>
+		</sequence>
+	</complexType>
+	<complexType name="PricesListType">
+		<sequence>
+			<element type="tns:PricesType" name="Prices" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<element name="PricesList" type="tns:PricesListType"></element>
+</schema>

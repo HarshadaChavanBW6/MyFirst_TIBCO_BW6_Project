@@ -1,0 +1,18 @@
+<tns2:AuthorIDsList xmlns:tns2="http://www.eniquesolutions.com/day10/exercises/Authors">
+	<tns2:AuthorIDs>
+		<tns2:BookID>BOOK001</tns2:BookID>
+		<tns2:AuthorID>AUTHOR001</tns2:AuthorID>
+	</tns2:AuthorIDs>
+	<tns2:AuthorIDs>
+		<tns2:BookID>BOOK002</tns2:BookID>
+		<tns2:AuthorID>AUTHOR002</tns2:AuthorID>
+	</tns2:AuthorIDs>
+	<tns2:AuthorIDs>
+		<tns2:BookID>BOOK003</tns2:BookID>
+		<tns2:AuthorID>AUTHOR003</tns2:AuthorID>
+	</tns2:AuthorIDs>
+	<tns2:AuthorIDs>
+		<tns2:BookID>BOOK004</tns2:BookID>
+		<tns2:AuthorID>AUTHOR004</tns2:AuthorID>
+	</tns2:AuthorIDs>
+</tns2:AuthorIDsList>

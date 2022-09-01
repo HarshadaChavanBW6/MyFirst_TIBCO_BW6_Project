@@ -1,0 +1,18 @@
+<tns2:PricesList xmlns:tns2="http://www.eniquesolutions.com/day10/exercises/Prices">
+	<tns2:Prices>
+		<tns2:BookID>BOOK001</tns2:BookID>
+		<tns2:Price>30.00</tns2:Price>
+	</tns2:Prices>
+	<tns2:Prices>
+		<tns2:BookID>BOOK002</tns2:BookID>
+		<tns2:Price>59.99</tns2:Price>
+	</tns2:Prices>
+	<tns2:Prices>
+		<tns2:BookID>BOOK003</tns2:BookID>
+		<tns2:Price>300.00</tns2:Price>
+	</tns2:Prices>
+	<tns2:Prices>
+		<tns2:BookID>BOOK004</tns2:BookID>
+		<tns2:Price>49.99</tns2:Price>
+	</tns2:Prices>
+</tns2:PricesList>

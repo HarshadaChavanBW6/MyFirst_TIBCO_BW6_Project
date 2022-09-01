@@ -1,0 +1,8 @@
+<tns3:Book xmlns:tns3="http://www.eniquesolutions.com/day10/exercises/BookStore" Category="cooking">
+  <tns3:Title lang="en">Everyday Italian</tns3:Title>
+	<tns3:Author>Giada De Laurentiis</tns3:Author>
+	<tns3:Year>2005</tns3:Year>
+	<tns3:Price>30.00</tns3:Price>
+	<tns3:PublishedDate>2020-03-28</tns3:PublishedDate>
+	<tns3:InitialRelease>2020-03-28T09:46:45.001-04:00</tns3:InitialRelease>
+</tns3:Book>

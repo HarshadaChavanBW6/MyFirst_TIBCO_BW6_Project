@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.eniquesolutions.com/day10/exercises/XPathFunctions" xmlns:tns="http://www.eniquesolutions.com/day10/exercises/XPathFunctions" elementFormDefault="qualified">
+
+    <complexType name="DateTimeFunctionsType">
+    	<sequence>
+    		<element name="ParseDateTime" type="tns:ParseDateTimeType" minOccurs="0"></element>
+    		<element name="FormatDateTime" type="tns:FormatDateTimeType" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="ParseDateTimeType">
+    	<sequence>
+    		<element name="YYYY-MM-DD" type="date" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YY-MM-DD" type="date" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MMM-DD" type="date" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MM-DDTHHMMSS" type="dateTime" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MM-DDThhMMSS" type="dateTime" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYYMMDD" type="date" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYYMMDDHHMMSS" type="dateTime" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYYMMDDhhMMSS" type="dateTime" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="FormatDateTimeType">
+    	<sequence>
+    		<element name="YYYY-MM-DD" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYYMMDD" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="DDMMYY" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="MonthYear" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="DD-MM-YYYY" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MM-DDTHHMMSS" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MM-DDThhMMSS" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="MonthYear2" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="YYYY-MM-DDThhMMSS2" type="string" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="XPathType">
+    	<sequence>
+    		<element name="DateTime" type="tns:DateTimeFunctionsType" minOccurs="0"></element>
+    		<element name="String" type="tns:StringType" minOccurs="0"></element>
+    		<element name="Node" type="tns:NodeType" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="StringType">
+    	<sequence>
+    		<element name="Concat" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="Substring" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="SubstringBefore" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="SubstringAfter" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="StringLength" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="ConcatSequenceFormat" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="TokenizedString" type="string" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="NodeType">
+    	<sequence>
+    		<element name="Count" type="string" minOccurs="0" maxOccurs="1"></element>
+    		<element name="Exists" type="string" minOccurs="0" maxOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="InputType">
+    	<sequence>
+    		<element name="value" type="string" minOccurs="0" maxOccurs="unbounded"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="XPathPractice" type="tns:XPathType"></element>	
+    <element name="Input" type="tns:InputType"></element>	
+</schema>
